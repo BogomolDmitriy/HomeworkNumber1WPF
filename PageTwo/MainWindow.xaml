@@ -1,0 +1,71 @@
+﻿<Window x:Class="PageTwo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PageTwo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="500">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Image Name="ButtonImage" Width="140" Source="./1.jpg" Margin="20"/>
+                <StackPanel Orientation="Vertical">
+                    <Label Content="Reference data" Foreground="Black" FontSize="25" />
+                    <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
+                        <Label Content="First name: " Foreground="Blue" FontSize="18" />
+                        <Label Content="Merist" Foreground="Black" FontSize="18" />
+                    </StackPanel>
+                    <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Horizontal">
+                        <Label Content="Last name: " Foreground="Blue" FontSize="18" />
+                        <Label Content="Joanna" Foreground="Black" FontSize="18" />
+                    </StackPanel>
+                    <StackPanel Grid.Column="2" Grid.Row="2" Orientation="Horizontal">
+                        <Label Content="Date of birth: " Foreground="Black" FontSize="18" />
+                        <Label Content="1995-03-09" Foreground="Black" FontSize="18" />
+                    </StackPanel>
+                    <StackPanel Grid.Column="2" Grid.Row="3" Orientation="Horizontal">
+                        <Label Content="ID: " Foreground="Red" FontSize="18" />
+                        <Label Content="3075" Foreground="Black" FontSize="18" />
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
+                    <Label Content="Email: " Foreground="Blue" FontSize="18" />
+                    <Label Content="shelton.cole@email.com" Foreground="Black" FontSize="18" />
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
+                    <Label Content="Phone_number: " Foreground="Blue" FontSize="18" />
+                    <Label Content="+691 1-926-404-0447" Foreground="Black" FontSize="18" />
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
+                    <Label Content="Country: " Foreground="Blue" FontSize="18" />
+                    <Label Content="United States" Foreground="Black" FontSize="18" />
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
+                    <Label Content="City: " Foreground="Blue" FontSize="18" />
+                    <Label Content="Virgiliochester" Foreground="Black" FontSize="18" />
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
+                    <Label Content="Street name: " Foreground="Blue" FontSize="18" />
+                    <Label Content="Alesha Motorway" Foreground="Black" FontSize="18" />
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
+                    <Label Content="Profession: " Foreground="Blue" FontSize="18" />
+                    <Label Content="Сharacter in a computer game" Foreground="Black" FontSize="18" />
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
+                    <Label Content="Social insurance number: " Foreground="Blue" FontSize="18" />
+                    <Label Content="517075594" Foreground="Black" FontSize="18" />
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
+                    <Label Content="Salary: " Foreground="Blue" FontSize="18" />
+                    <Label Content="2500" Foreground="Black" FontSize="18" />
+                    <Label Content=" gold" Foreground="Gold" FontSize="18" />
+                </StackPanel>
+                
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -16,7 +16,7 @@
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="80"/>
+                <RowDefinition Height="60"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
@@ -42,13 +42,12 @@
                         <Image Name="ButtonImage" Width="100" Source="./photo/1.jpg"/>
                     </Button>
                     <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
-                        <Label Content="First_name: " Foreground="Blue" FontSize="14" />
+                        <Label Content="First name: " Foreground="Blue" FontSize="14" />
                         <Label Content="Merist" Foreground="Black" FontSize="14" />
-                        
                     </StackPanel>
 
                     <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Horizontal">
-                        <Label Content="First_name: " Foreground="Blue" FontSize="14" />
+                        <Label Content="Last name: " Foreground="Blue" FontSize="14" />
                         <Label Content="Joanna" Foreground="Black" FontSize="14" />
                     </StackPanel>
 
@@ -83,12 +82,12 @@
                         <Image Width="100" Source="./photo/2.jpg"/>
                     </Button>
                     <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
-                        <Label Content="First_name: " Foreground="Blue" FontSize="14" />
+                        <Label Content="First name: " Foreground="Blue" FontSize="14" />
                         <Label Content="Jeddit" Foreground="Black" FontSize="14" />
                     </StackPanel>
 
                     <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Horizontal">
-                        <Label Content="First_name: " Foreground="Blue" FontSize="14" />
+                        <Label Content="Last name: " Foreground="Blue" FontSize="14" />
                         <Label Content="Maxwell" Foreground="Black" FontSize="14" />
                     </StackPanel>
 
@@ -123,12 +122,12 @@
                         <Image Width="100" Source="./photo/3.jpg"/>
                     </Button>
                     <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
-                        <Label Content="First_name: " Foreground="Blue" FontSize="14" />
+                        <Label Content="First name: " Foreground="Blue" FontSize="14" />
                         <Label Content="Aeris" Foreground="Black" FontSize="14" />
                     </StackPanel>
 
                     <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Horizontal">
-                        <Label Content="First_name: " Foreground="Blue" FontSize="14" />
+                        <Label Content="Last name: " Foreground="Blue" FontSize="14" />
                         <Label Content="Vic" Foreground="Black" FontSize="14" />
                     </StackPanel>
 
@@ -163,12 +162,12 @@
                         <Image Width="100" Source="./photo/4.jpg"/>
                     </Button>
                     <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal">
-                        <Label Content="First_name: " Foreground="Blue" FontSize="14" />
+                        <Label Content="First name: " Foreground="Blue" FontSize="14" />
                         <Label Content="Sandro" Foreground="Black" FontSize="14" />
                     </StackPanel>
 
                     <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Horizontal">
-                        <Label Content="First_name: " Foreground="Blue" FontSize="14" />
+                        <Label Content="Last name: " Foreground="Blue" FontSize="14" />
                         <Label Content="Max" Foreground="Black" FontSize="14" />
                     </StackPanel>
 
